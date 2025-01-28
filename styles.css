@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+}
+.heading-container
+{
+    background:#1F2937;
+    font-style: Roboto;
+    padding-left:100px;
+    padding-right: 100px;
+
+    
+}
+.header-container{
+    display: flex;
+   padding-top: 10px;
+}
+
+#logo-text
+{
+    flex:2;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.links
+{
+    
+    display: flex;
+    gap: 10px;
+}
+.link
+{
+    font-size: 18px;
+    color: #E5E7EB;
+    white-space: nowrap;
+
+}
+ .content-container{
+    display:flex;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+ }
+ .column{
+    flex:1
+ }
+#t-sentence
+{
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+
+}
+.img-container{
+    /* width: 300px;
+    height: 100px; */
+    padding: 50px 0px;
+    background:grey;
+    color: #E5E7EB;
+    text-align: center;
+
+}
+#text
+{
+    font-size: 18px;
+    color: #E5E7EB; 
+}
+.signup-btn{
+    background: #3882f6;                                                                                                                               
+    color:white;
+    border-radius: 5px;
+    padding: 2px;
+}
+.body1-container{
+    background:white;
+    padding-bottom: 30px;
+}
+.body1-container h1{
+    text-align:center;
+}
+.body1-content{
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+    gap:20px;
+    
+}
+.image{
+    
+    height:100px;
+    width:100px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+
+   
+}
+.body2-container{
+    background: #E5E7EB;
+    /* justify-content: center; */
+    padding: 70px 70px;
+
+}
+.quote-text{
+    color: #1f2937;
+    font-size: 36px;
+    font-style:  light italic;
+
+
+}
+.quote-author
+{
+    text-align: right;
+    font-weight: bold;
+    margin-top:10px;
+}
+.body3-container
+{
+    background: white;
+}
+.body3-content
+{
+    display:flex;
+    background: #3882f6;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 50px;
+    margin:40px;
+}
+.body3-text{
+   
+    margin: 0;
+   
+  
+}
+.btn-container button{
+    border: 1px solid white;
+}
+.footer-container{
+    background:#1F2937;
+    color:white;
+    text-align: center;
+    padding: 30px 0px;
+
+}
